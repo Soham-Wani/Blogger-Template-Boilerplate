@@ -10,11 +10,12 @@
   <b:include name='theme-head'/>
   <b:if cond='!data:view.isLayoutMode'>
     <b:skin version='1.0.0'><![CDATA[ /*
-      Theme Name     : (Theme Name)
-      Theme Designer : (Designer Name)
-      Designer URL   : (Designer Link)
-      Publisher URL  : (Pubisher Link)
-      Special Thanks : (If Any)
+      Theme Name      : (Theme Name)
+      Theme Designer  : (Designer Name)
+      Designer URL    : (Designer Link)
+      Publisher URL   : (Pubisher Link)
+      Special Thanks  : (If Any)
+      Boilerplate URL : 
       */
       /* <!-- Customize Options --> */
       /* All Your Main CSS Here */
