@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:js='true' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:dir='data:blog.languageDirection' lang='en:IN' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <!-- All Your Scripts Here -->
+  <meta charset='utf-8'/>
+  <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
+  <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include name='theme-head'/>
+  <b:if cond='!data:view.isLayoutMode'>
+    <b:skin version='1.0.0'>
+<![CDATA[ /*
+      Theme Name      : (Theme Name)
+      Theme Designer  : (Designer Name)
+      Designer URL    : (Designer Link)
+      Publisher URL   : (Pubisher Link)
+      Special Thanks  : (If Any)
+      Boilerplate URL : https://github.com/SohamWani
+      */
+      /* <!-- Customize Options --> */
+      /* All Your Main CSS Here */
+    ]]>
+    </b:skin>
+  </b:if>
+  <b:if cond='data:view.isLayoutMode'>
+    <b:template-skin><![CDATA[
+      /* All Your Layout CSS Here */
+    ]]></b:template-skin>
+  </b:if>
+  <b:defaultmarkups>
+    <b:defaultmarkup type='Common'>
+      <b:includable id='customOpenGraphMetaData'>
+      <b:if cond='data:view.isHomepage'>
+        <meta content='website' property='og:type'/>
+      </b:if>
+      <b:if cond='data:view.isSingleItem'>
+        <meta content='article' property='og:type'/>
+      </b:if>
+      <b:if cond='data:view.isMultipleItems and not data:view.isHomepage'>
+        <meta content='object' property='og:type'/>
+      </b:if>    
+      <meta expr:content='data:view.title.escaped' property='og:title'/>
+      <meta expr:content='data:blog.url.canonical' property='og:url'/>
+      <meta expr:content='data:view.description.escaped' property='og:description'/>
+      <meta expr:content='data:blog.title.escaped' property='og:site_name'/>
+      <b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:content='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600' name='meta' property='og:image'/>
+      <b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:content='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600' name='meta' property='twitter:image'/>
+      <b:if cond='data:view.featuredImage'>
+        <meta expr:content='data:view.featuredImage resizeImage 1600' property='og:image'/>
+        <meta expr:content='data:view.featuredImage resizeImage 1600' name='twitter:image'/>
+      </b:if>
+      <meta content='summary_large_image' name='twitter:card'/>
+      <meta expr:content='data:view.title.escaped' name='twitter:title'/>
+      <meta expr:content='data:blog.url.canonical' name='twitter:domain'/>
+      <meta expr:content='data:view.description.escaped' name='twitter:description'/>
+      <b:if cond='data:view.isHomepage'>
+        <script type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;WebSite&quot;,&quot;name&quot;:&quot;<data:view.title.escaped/>&quot;,&quot;url&quot;:&quot;<data:view.url.canonical/>&quot;,&quot;potentialAction&quot;:{&quot;@type&quot;:&quot;SearchAction&quot;,&quot;target&quot;:&quot;<data:view.url.canonical/>search?q={search_term_string}&quot;,&quot;query-input&quot;:&quot;required name=search_term_string&quot;}}</script>
+      </b:if>
+      </b:includable>
+      <b:includable id='theme-head'>
+      <link href='//blogger.com' rel='dns-prefetch'/>
+      <link href='//fonts.gstatic.com' rel='dns-prefetch'/>
+      <link href='//1.bp.blogspot.com' rel='dns-prefetch'/>
+      <link href='//2.bp.blogspot.com' rel='dns-prefetch'/>
+      <link href='//3.bp.blogspot.com' rel='dns-prefetch'/>
+      <link href='//4.bp.blogspot.com' rel='dns-prefetch'/>
+      <link href='//www.blogger.com' rel='dns-prefetch'/>
+      <link href='//cdnjs.cloudflare.com' rel='dns-prefetch'/>
+      <link href='//pagead2.googlesyndication.com' rel='dns-prefetch'/>
+      <link href='//www.googletagmanager.com' rel='dns-prefetch'/>
+      <link href='//www.google-analytics.com' rel='dns-prefetch'/>
+      <link href='//connect.facebook.net' rel='dns-prefetch'/>
+      <link href='//c.disquscdn.com' rel='dns-prefetch'/>
+      <link href='//disqus.com' rel='dns-prefetch'/>
+      <link href='//code.jquery.com' rel='dns-prefetch'/>
+      <link href='//googleads.g.doubleclick.net' rel='dns-prefetch'/>
+      <link href='//fontawesome.com' rel='dns-prefetch'/>
+      <link href='//cdn.jsdelivr.net' rel='dns-prefetch'/>
+      <link href='//blogger.googleusercontent.com' rel='dns-prefetch'/>
+      <link href='//lh3.googleusercontent.com' rel='dns-prefetch'/>
+      <meta expr:content='&quot;text/html; charset=&quot; + data:blog.encoding' http-equiv='Content-Type'/>
+      <meta content='blogger' name='generator'/>
+      <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+      <b:if cond='data:blog.adultContent'>
+        <meta content='adult' name='rating'/>
+      </b:if>
+      <link expr:href='data:view.url.canonical' rel='canonical'/>
+      <data:blog.feedLinks/><data:blog.meTag/>
+      <meta expr:content='data:view.description.escaped' name='description'/>
+      <b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:href='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600' name='link' rel='image_src'/>
+      <b:tag cond='data:view.isSingleItem and data:view.featuredImage' expr:href='data:view.featuredImage resizeImage 1600' name='link' rel='image_src'/>
+      <b:include name='customOpenGraphMetaData'/>
+      </b:includable>
+    </b:defaultmarkup>
+  </b:defaultmarkups>
+</head>
+<body>
+  <header>
+    <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
+      <!-- Your Header Widgets Here -->
+    </b:section>
+  </header>
+  <div class='main'>
+    <b:section class='main' id='main' showaddelement='no'>
+      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' />
+    </b:section>
+  </div>
+  <aside>
+    <b:section class='sidebar' id='sidebar' preferred='yes' maxwidgets='8' showaddelement='yes'>
+      <!-- Your Sidebar Widgets Here -->
+    </b:section>
+  </aside>
+  <footer>
+    <b:section id='footer' class='footer' showaddelement='yes' maxwidgets='2'>
+      <!-- Your Footer Widgets Here -->
+    </b:section>
+  </footer>
+  <script>
+    //Your All JavaScript Code Here
+  </script>
+</body>
+</html>
