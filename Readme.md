@@ -9,6 +9,7 @@ This basic code will help you to start creating your own blogger template and sh
 - Next step is to code javascript and CSS. Instructions to what code should go where has been given in the code in form of comments. Follow those and your new Blogger template will be ready.
 ## Explanation
 Understanding the basics of blogger templates will help you code better and customise your template in a better way. Make sure you read the following explanation.
-- The first 2 tags in the code are default tags present in each blogger template. They tell the browser that the document it will be scanning is an HTML document. Those tags look like this: ```html
+- The first 2 tags in the code are default tags present in each blogger template. They tell the browser that the document it will be scanning is an HTML document. Those tags look like this: ```
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html>```
+<!DOCTYPE html>
+```
