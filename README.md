@@ -23,13 +23,13 @@ To use the Blogger Template Boilerplate, follow these steps:
 3. Copy the contents of `template.xml` into the editor.
 4. Save your changes and preview your new template.
 
-You can customize the template by modifying the HTML and CSS code. The template includes comments to help you identify and edit different sections.
+You can customize the template by modifying the HTML, CSS, JavaScript code. The template includes comments to help you identify and edit different sections.
 
 ## Features
 
 Blogger Template Boilerplate includes the following features:
 
-- Basic HTML and CSS styling
+- Skeleton to develop a template
 - Header, footer, and navigation menu
 - Responsive design
 - Commented code for easy customization
