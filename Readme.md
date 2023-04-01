@@ -40,4 +40,4 @@ This template was created by [Soham-Wani](https://github.com/Soham-Wani).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Soham-Wani/Blogger-Template-Boilerplate/blob/main/License) file for details.
